@@ -14,3 +14,7 @@ Seguir a ordem abaixo dos cenários relacionado a cada integrante do grupo:
 - Hyago - 3;
 - João Pedro - 2;
 - Pedro - 4;
+
+### Observações feitas durante a criação
+- Ao criar uma movimentação, a sua localização (com exceção da sala) já é informada. No aceite de entrada deverá somente atualizar a sala (CORRIGIR DOCUMENTAÇÃO CASO DE USO);
+- No diagrama de classes, creio que localização deveria ser o atributo do bem, e não sala. 
