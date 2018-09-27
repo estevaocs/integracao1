@@ -7,7 +7,7 @@ Toda regra de negócio criada em um caso de uso deve ser descrita aqui neste doc
 - RN02 - Ao dar baixa em um bem patrimonial, a data informada não deve ser menor que a data atual;
 
 ## Sobre os Diagramas de Sequencia
-Utilizar o diagrama de caso de uso "Diagrama com Cenarios" para visualizar quais casos de uso entrarão no seu diagrama de sequencia. Favor seguir a configuração do nome do arquivo "Diagrama de Sequencia - C01" (exemplo para o cenário 01).
+Utilizar o diagrama de caso de uso "Diagrama com Cenarios" para visualizar quais casos de uso entrarão no seu diagrama de sequencia. Favor seguir a configuração do nome do arquivo "DS CS-RF03" (exemplo para o caso de uso CS-RF03).
 Seguir a ordem abaixo dos cenários relacionado a cada integrante do grupo:
 - Estevão - 5 e 6;
 - Gabriel - 1;
