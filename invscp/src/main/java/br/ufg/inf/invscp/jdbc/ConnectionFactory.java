@@ -4,20 +4,18 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class ConexaoUtil {
+public class ConnectionFactory {
 
-    private static ConexaoUtil conexaoUtil;
+    private static ConnectionFactory connectionFactory;
 
-    public  static ConexaoUtil getInstance() {
-        if (conexaoUtil == null) {
-            conexaoUtil = new ConexaoUtil();
+    public  static ConnectionFactory getInstance() {
+        if (connectionFactory == null) {
+            connectionFactory = new ConnectionFactory();
         }
-        return  conexaoUtil;
+        return connectionFactory;
     }
 
     public Connection getConnection() throws ClassNotFoundException, SQLException {
-//        Class.forName("com.mysql.jdbc.Driver");
-//        return DriverManager.getConnection("jdbc:mysql://sql173.main-hosting.eu/u613749268_invsc?user=u613749268_grupo&password=grupo4321");
 
         try{
 
@@ -42,15 +40,16 @@ public class ConexaoUtil {
     }
 
     public static void main(String[] args) {
-        ConexaoUtil conexaoUtil = new ConexaoUtil();
+        ConnectionFactory connectionFactory = new ConnectionFactory();
         try {
-            Connection connection = conexaoUtil.getConnection();
+            Connection connection = connectionFactory.getConnection();
             boolean reachable = connection.isValid(10);
             if (reachable) {
                 System.out.printf("1");
             } else {
                 System.out.printf("0");
             }
+            connection.close();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {

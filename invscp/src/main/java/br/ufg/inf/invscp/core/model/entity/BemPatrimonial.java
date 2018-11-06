@@ -1,7 +1,7 @@
-package br.ufg.inf.invscp.entity;
+package br.ufg.inf.invscp.core.model.entity;
 
-import br.ufg.inf.invscp.entity.enums.MotivoBaixa;
-import br.ufg.inf.invscp.entity.enums.Situacao;
+import br.ufg.inf.invscp.core.model.enums.MotivoBaixa;
+import br.ufg.inf.invscp.core.model.enums.Situacao;
 
 import java.util.Calendar;
 
