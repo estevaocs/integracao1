@@ -1,12 +1,12 @@
-package br.ufg.inf.invscp;
+package br.ufg.inf.invsp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InvscpApplication {
+public class InvspApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InvscpApplication.class, args);
+		SpringApplication.run(InvspApplication.class, args);
 	}
 }
