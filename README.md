@@ -4,7 +4,8 @@ Trabalho de Integração 1
 ## Regras de Negócio 
 Toda regra de negócio criada em um caso de uso deve ser descrita aqui neste documento (atualizando o documento) e deve seguir a regra de numeração das RN já criadas.
 - RN01 - O usuário só poderá realizar o registro de movimentação para bens que pertecem ao seu departamento;
-- RN02 - Ao dar baixa em um bem patrimonial, a data informada não deve ser menor que a data atual;
+- RN02 - Ao dar baixa em um bem patrimonial, a data é informada automaticamente pelo sistema;
+- RN04 - Ao criar um bem patrimonial, sua situação fica sendo como "Incorporado";
 
 ## Sobre os Diagramas de Sequencia
 Utilizar o diagrama de caso de uso "Diagrama com Cenarios" para visualizar quais casos de uso entrarão no seu diagrama de sequencia. Favor seguir a configuração do nome do arquivo "DS CS-RF03" (exemplo para o caso de uso CS-RF03).
